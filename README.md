@@ -1,7 +1,8 @@
 # 手順
 
 -前提-
-クローン後、src/Python ディレクトリは削除する
+クローン後、src/Python ディレクトリは削除する。
+プロジェクト名「DockerFormat_for_Django」は好きに変えてください。
 
 1. docker-compose.yml/Dockerfile/requirements.txt の 3 つをもとに Docker を構築(docker compose build→docker compose up -d)
 2. python コンテナの中に入り、 django-admin startproject config . でプロジェクトの作成

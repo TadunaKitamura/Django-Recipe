@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   python:
-    container_name: "python_kanbanTest"
+    # container_name: "python_kanbanTest" コンテナ名を指定しない場合、プロジェクト名+連番で作成されます
     tty: true
     build:
       dockerfile: "./container/python/Dockerfile"
@@ -11,7 +11,7 @@ services:
       - "./src/python:/app"
       - "./work:/work"
   db1:
-    container_name: "postgres_python_kanbanTest"
+    # container_name: "postgres_python_kanbanTest" コンテナ名を指定しない場合、プロジェクト名+連番で作成されます
     image: postgres:14-alpine
     restart: always
     shm_size: 256mb
