@@ -8,7 +8,7 @@
 2. python コンテナの中に入り、 django-admin startproject config . でプロジェクトの作成
 3. container/python/Dockerfile の 7 行目のコメントアウトを外し、再度 Docker の落とし上げ（stop,build,up。これで localhost:8000 がつながったままになる）
 4. 再度 python コンテナの中に入り、pipenv install でパッケージをインストール
-5. pip install django で Django パッケージをインストール
-6. pipenv shell で仮想環境を構築
+5. pipenv shell で仮想環境を構築
+6. pip install django で Django パッケージをインストール
 7. pipenv run python manage.py startapp \*\*\* でアプリを作成
 8. /app/config/settings.py に、今作成したアプリを登録する（33 行目付近、INSTALLED_APPS に、アプリ名.apps.アプリ名 config を追記する。kanban というアプリ名であれば、kanban.apps.KanbanConfig）
