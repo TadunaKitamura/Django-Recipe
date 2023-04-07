@@ -1,7 +1,7 @@
 # 手順
 
 -前提-
-クローン後、src/Python ディレクトリは削除する。
+クローン後、src/Python ディレクトリは削除済みですが、立ち上げ時に自動生成されます。
 プロジェクト名「DockerFormat_for_Django」は好きに変えてください。
 
 1. docker-compose.yml/Dockerfile/requirements.txt の 3 つをもとに Docker を構築(docker compose build→docker compose up -d)
