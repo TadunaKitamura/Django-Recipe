@@ -2,3 +2,7 @@ pipenv
 django
 asgiref==3.6.0
 sqlparse==0.4.3
+django-crispy-forms
+# crispy_forms
+# bootstrap4
+crispy-bootstrap4
