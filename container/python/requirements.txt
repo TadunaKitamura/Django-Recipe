@@ -1,2 +1,4 @@
 pipenv
 django
+asgiref==3.6.0
+sqlparse==0.4.3
