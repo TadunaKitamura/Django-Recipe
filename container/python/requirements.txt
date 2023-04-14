@@ -6,3 +6,5 @@ django-crispy-forms
 # crispy_forms
 # bootstrap4
 crispy-bootstrap4
+pillow
+django-imagekit
